@@ -13,6 +13,10 @@ app.get('/about', (req, res) => {
     res.send(data)
 })
 
+app.get('/contact', (req, res) => {
+    res.send('contact page')
+})
+
 app.post('/',(req,res)=>{
     res.send('mthod post')
 })
